@@ -1,68 +1,83 @@
-/* 
-Exercicios de interpretação de códgigos
-1-
-let a = 10
-let b = 10
 
-console.log(b)
+// // Exercicios de interpretação de códgigos
+// // 1-
 
-b = 5
-console.log(a, b)
+// let a = 10
+// let b = 10
 
-será impressos no console as variaveis 10 e 5
+// console.log(b)
 
-2-
-let a = 10
-let b = 20
-c = a
-b = c
-a = b
+// b = 5
 
-console.log(a, b, c)
-sera impresso no console as variaveis 10,20 e a
+// console.log(a,b)
 
-3- 
-let p = prompt("Quantas horas você trabalha por dia?")
-let t = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${t/p} por hora`)
+// // let a = 10
+// // let b = 10
 
-let programador
+// //  console.log(b)
 
-*/
+// // b=5
 
-/*
-let nome= //a - Declare uma variável para armazenar um nome, sem atribuir um valor.
-let idade= //b- Declare uma variável para armazenar uma idade, sem atribuir um valor.
-typeof nome //c- Imprima na tela o tipo dessas variáveis que acabou de criar, usando o comando typeof.
-typeof idade
+// //  console.log (a,b)
 
-// reporta sintaxe de erro, undefined preciso atribuir um valor para a variavel
-*/
+// // inicialmente o valor de b era 10, em seguida é definido novo valor de 5,
+// // Então será impressos no console as variaveis 10 e 5
 
-/*
+// // 2-
+// let a = 10
+// let b = 20
 
-//e) Pergunte ao usuário seu nome e sua idade, atribuindo esses dois valores às variáveis que acabou de criar.
+// c = a //10
+// b = c// 10
+// a = b // 10
 
-const nome = prompt("Qual o seu nome?")
-console.log (nome)
+//console.log(a, b, c)
 
-const idade = prompt("Qual a sua idade?")
-console.log (idade)
-*/
 
+// // 3- Analise o programa abaixo, entenda o que ele faz e sugira melhores nomes para as 
+// // variáveis. Lembre-se que devemos escolher nomes significativos, usar o padrão camelCase. 
+// // Alem disso, os nomes não podem começar com números ou caracteres especiais.
+
+//let p = prompt("Quantas horas você trabalha por dia?")
+//let t = prompt("Quanto você recebe por dia?")
+// // alert(`Voce recebe ${t/p} por hora`)
+
+// let horastrabalhadasDia = prompt("Quantas horas você trabalha por dia?")
+// let ValorDia =prompt ("Quanto você recebe por dia?")
+
+// let resultado = (Number(horastrabalhadasDia) / Number(ValorDia))
+
+// console.log ("Voce recebe $", resultado , "por hora")
+
+// */
+
+// /*
+// a -Declare uma variável para armazenar um nome, sem atribuir um valor.
+// b- Declare uma variável para armazenar uma idade, sem atribuir um valor.
+// c- Imprima na tela o tipo dessas variáveis que acabou de criar, usando o comando typeof.
+
+//e) Pergunte ao usuário seu nome e sua idade, atribuindo esses dois valores às variáveis 
+//que acabou de criar.
 //g) Para finalizar, imprima na tela a mensagem: "Olá nome,  você tem idade anos". 
 //Onde nome e idade são os valores que o usuário inseriu
 
-/*
-const nome = prompt("Qual o seu nome?")
-console.log (nome)
 
-const idade = prompt("Qual a sua idade?")
-console.log (idade)
-*/
+// const nome = prompt("Qual o seu nome?")
+// let idade= prompt ("Qual a sua idade?")
 
-//Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. 
-//Por exemplo: "Você está usando uma roupa azul hoje?". 
+// console.log (typeof nome)
+// console.log (typeof idade)
+
+// console.log("Olá",  nome, "você tem", idade, "anos")
 
 
+// Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. 
+// Por exemplo: "Você está usando uma roupa azul hoje?". 
+
+// Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. 
+// Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:
+
+// a) Crie três novas variáveis, contendo as respostas
+// b) Imprima na tela todas as perguntas seguidas por suas respectivas respostas. Por exemplo:
+// Você está usando uma roupa azul hoje? - SIM
 
