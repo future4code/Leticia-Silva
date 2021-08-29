@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(235, 255, 122, 0.61);
+    height: 80px;
+    font-size: 95%;
+}
+
+.menu {
+    margin: 12px 0;
+}
+
+.menu a {
+    color:rgb(255, 72, 0);
+    border:azure;
+    padding: 8px;
+    margin: 10px;
+
+}
+#selected{
+color: chocolate;
+border: 2px solid chocolate;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+#profile-picture {
+    height: 330px
+}
+
+.footer {
+    background-color: rgb(226, 214, 43);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 5%;
+}
+
