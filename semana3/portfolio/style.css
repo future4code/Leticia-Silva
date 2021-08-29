@@ -1,46 +1,43 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+* {
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .header {
-    background-color: rgba(235, 255, 122, 0.61);
-    height: 80px;
-    font-size: 95%;
+    background: linear-gradient(9090deg, rgb(164, 67, 230) 0%, rgb(245, 81, 81) 50%, rgba(252, 176, 69, 1) 100%);
+    ;
+    height: 60px;
+    font-size: 83%;
 }
 
 .menu {
-    margin: 12px 0;
+    margin: 6px 0;
 }
 
 .menu a {
-    color:rgb(255, 72, 0);
-    border:azure;
-    padding: 8px;
-    margin: 10px;
-
-}
-#selected{
-color: chocolate;
-border: 2px solid chocolate;
-
+    color: rgb(231, 145, 23);
+    border: rgb(242, 240, 255);
+    padding: 5px;
+    margin: 8px;
 }
 
+#selected {
+    color: rgb(32, 4, 12);
+    border: 5px solid: black;
+}
 
-a{
+a {
     text-decoration: none;
 }
 
-
-
 #profile-picture {
-    height: 330px
+    height: 325px
 }
 
 .footer {
-    background-color: rgb(226, 214, 43);
-    position: fixed;
-    bottom:0;
+    background-color: rgb(240, 107, 55);
+    position: fixed bottom: 0;
     width: 100%;
     height: 5%;
 }
-
